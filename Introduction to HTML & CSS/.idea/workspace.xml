@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e1b97f5-b849-4a92-8e24-9250beada823" name="Changes" comment="Solution">
-      <change afterPath="$PROJECT_DIR$/Resources/01-html/14/wiki_article.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/02-css/01/simple_selectors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/02-css/01/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,9 +17,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="Python Script" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -58,6 +59,7 @@
     "JavaScript Debug.semantic_tags_header_main_footer.html.executor": "Run",
     "JavaScript Debug.semantic_tags_time.html.executor": "Run",
     "JavaScript Debug.simple_html_document.html.executor": "Run",
+    "JavaScript Debug.simple_selectors.html.executor": "Run",
     "JavaScript Debug.task_2.html.executor": "Run",
     "JavaScript Debug.task_3.html.executor": "Run",
     "JavaScript Debug.wiki_article.html.executor": "Run",
@@ -80,7 +82,7 @@
       <recent name="$PROJECT_DIR$/Resources/.idea" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.wiki_article.html">
+  <component name="RunManager" selected="JavaScript Debug.simple_selectors.html">
     <configuration name="semantic_tag_nav.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/Resources/01-html/11/semantic_tag_nav.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -90,11 +92,15 @@
     <configuration name="semantic_tags_time.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/Resources/01-html/12/semantic_tags_time.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="simple_selectors.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/Resources/02-css/01/simple_selectors.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="wiki_article.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/Resources/01-html/14/wiki_article.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.simple_selectors.html" />
         <item itemvalue="JavaScript Debug.wiki_article.html" />
         <item itemvalue="JavaScript Debug.semantic_tags_blockquote.html" />
         <item itemvalue="JavaScript Debug.semantic_tag_nav.html" />
@@ -119,7 +125,7 @@
       <option name="presentableId" value="Default" />
       <updated>1726125107378</updated>
       <workItem from="1726125108435" duration="9031000" />
-      <workItem from="1726134166406" duration="3832000" />
+      <workItem from="1726134166406" duration="5940000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -289,7 +295,23 @@
       <option name="project" value="LOCAL" />
       <updated>1726137450699</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Solution">
+      <option name="closed" value="true" />
+      <created>1726138169878</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1726138169878</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Solution">
+      <option name="closed" value="true" />
+      <created>1726138190315</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1726138190315</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
