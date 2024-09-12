@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e1b97f5-b849-4a92-8e24-9250beada823" name="Changes" comment="Solution">
-      <change afterPath="$PROJECT_DIR$/Resources/01-html/12/semantic_tags_time.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/01-html/13/semantic_tags_blockquote.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,9 +52,11 @@
     "JavaScript Debug.marking_text_links_strong_emphasis_and_more.html.executor": "Run",
     "JavaScript Debug.semantic_tag_nav.html.executor": "Run",
     "JavaScript Debug.semantic_tags_article_session.html.executor": "Run",
+    "JavaScript Debug.semantic_tags_blockquote.html.executor": "Run",
     "JavaScript Debug.semantic_tags_details_summary.html.executor": "Run",
     "JavaScript Debug.semantic_tags_figure_figcapture.html.executor": "Run",
     "JavaScript Debug.semantic_tags_header_main_footer.html.executor": "Run",
+    "JavaScript Debug.semantic_tags_time.html.executor": "Run",
     "JavaScript Debug.simple_html_document.html.executor": "Run",
     "JavaScript Debug.task_2.html.executor": "Run",
     "JavaScript Debug.task_3.html.executor": "Run",
@@ -77,12 +79,20 @@
       <recent name="$PROJECT_DIR$/Resources/.idea" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.semantic_tags_blockquote.html">
+    <configuration name="semantic_tag_nav.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/Resources/01-html/11/semantic_tag_nav.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="semantic_tags_blockquote.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/Resources/01-html/13/semantic_tags_blockquote.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="semantic_tags_time.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/Resources/01-html/12/semantic_tags_time.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.semantic_tags_blockquote.html" />
+        <item itemvalue="JavaScript Debug.semantic_tag_nav.html" />
         <item itemvalue="JavaScript Debug.semantic_tags_time.html" />
       </list>
     </recent_temporary>
@@ -104,7 +114,7 @@
       <option name="presentableId" value="Default" />
       <updated>1726125107378</updated>
       <workItem from="1726125108435" duration="9031000" />
-      <workItem from="1726134166406" duration="2304000" />
+      <workItem from="1726134166406" duration="3220000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -258,7 +268,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726135863066</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Solution">
+      <option name="closed" value="true" />
+      <created>1726136620351</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1726136620351</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
