@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e1b97f5-b849-4a92-8e24-9250beada823" name="Changes" comment="Solution">
-      <change afterPath="$PROJECT_DIR$/Resources/01-html/11/semantic_tag_nav.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/01-html/12/semantic_tags_time.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,6 +77,16 @@
       <recent name="$PROJECT_DIR$/Resources/.idea" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="semantic_tags_time.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/Resources/01-html/12/semantic_tags_time.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.semantic_tags_time.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -94,7 +104,7 @@
       <option name="presentableId" value="Default" />
       <updated>1726125107378</updated>
       <workItem from="1726125108435" duration="9031000" />
-      <workItem from="1726134166406" duration="1685000" />
+      <workItem from="1726134166406" duration="2304000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -240,7 +250,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726135493283</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Solution">
+      <option name="closed" value="true" />
+      <created>1726135863066</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1726135863066</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
