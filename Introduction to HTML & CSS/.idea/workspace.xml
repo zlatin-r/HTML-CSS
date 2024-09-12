@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e1b97f5-b849-4a92-8e24-9250beada823" name="Changes" comment="Solution">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/01-html/08/semantic_tags_article_session.html" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/01-html/08/semantic_tags_article_session.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/01-html/10/semantic_tags_figure_figcapture.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +49,7 @@
     "JavaScript Debug.images.html.executor": "Run",
     "JavaScript Debug.marking_text_links_strong_emphasis_and_more.html.executor": "Run",
     "JavaScript Debug.semantic_tags_article_session.html.executor": "Run",
+    "JavaScript Debug.semantic_tags_details_summary.html.executor": "Run",
     "JavaScript Debug.semantic_tags_header_main_footer.html.executor": "Run",
     "JavaScript Debug.simple_html_document.html.executor": "Run",
     "JavaScript Debug.task_2.html.executor": "Run",
@@ -91,7 +90,7 @@
       <option name="presentableId" value="Default" />
       <updated>1726125107378</updated>
       <workItem from="1726125108435" duration="9031000" />
-      <workItem from="1726134166406" duration="642000" />
+      <workItem from="1726134166406" duration="1055000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -221,7 +220,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726134808163</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Solution">
+      <option name="closed" value="true" />
+      <created>1726135010596</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1726135010596</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
