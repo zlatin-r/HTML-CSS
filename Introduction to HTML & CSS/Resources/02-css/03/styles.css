@@ -1,0 +1,11 @@
+p.highlight {
+    color: dodgerblue;
+    font-style: oblique;
+}
+
+div#uniqueDiv {
+    background: #ffb050;
+    padding: 5px;
+}
+
+/*TODO FINISH THE TASK*/

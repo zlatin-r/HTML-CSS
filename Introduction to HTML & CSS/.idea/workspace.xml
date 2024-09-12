@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e1b97f5-b849-4a92-8e24-9250beada823" name="Changes" comment="Solution">
-      <change afterPath="$PROJECT_DIR$/Resources/02-css/02/combinators.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/02-css/02/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/02-css/03/compound_selectors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/02-css/03/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +50,7 @@
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
     "JavaScript Debug.combinators.html.executor": "Run",
+    "JavaScript Debug.compound_selectors.html.executor": "Run",
     "JavaScript Debug.images.html.executor": "Run",
     "JavaScript Debug.marking_text_links_strong_emphasis_and_more.html.executor": "Run",
     "JavaScript Debug.semantic_tag_nav.html.executor": "Run",
@@ -83,11 +84,11 @@
       <recent name="$PROJECT_DIR$/Resources/.idea" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.combinators.html">
+  <component name="RunManager" selected="JavaScript Debug.compound_selectors.html">
     <configuration name="combinators.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/Resources/02-css/02/combinators.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="semantic_tag_nav.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/Resources/01-html/11/semantic_tag_nav.html" useBuiltInWebServerPort="true">
+    <configuration name="compound_selectors.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/Resources/02-css/03/compound_selectors.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="semantic_tags_blockquote.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/Resources/01-html/13/semantic_tags_blockquote.html" useBuiltInWebServerPort="true">
@@ -101,11 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.compound_selectors.html" />
         <item itemvalue="JavaScript Debug.combinators.html" />
         <item itemvalue="JavaScript Debug.simple_selectors.html" />
         <item itemvalue="JavaScript Debug.wiki_article.html" />
         <item itemvalue="JavaScript Debug.semantic_tags_blockquote.html" />
-        <item itemvalue="JavaScript Debug.semantic_tag_nav.html" />
       </list>
     </recent_temporary>
   </component>
@@ -126,7 +127,7 @@
       <option name="presentableId" value="Default" />
       <updated>1726125107378</updated>
       <workItem from="1726125108435" duration="9031000" />
-      <workItem from="1726134166406" duration="8125000" />
+      <workItem from="1726134166406" duration="10473000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -328,7 +329,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726142065017</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Solution">
+      <option name="closed" value="true" />
+      <created>1726143788602</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1726143788602</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
