@@ -1,0 +1,35 @@
+.lighthouse {
+    height: 550px;
+    width: 360px;
+    display: block;
+}
+
+.typewriter {
+    height: 250px;
+    width: 360px;
+    display: block;
+}
+
+.image-row {
+    display: flex;
+    gap: 10px;
+}
+
+.image-row img {
+    width: 250px;
+    height: 250px;
+}
+
+.image-gallery ul {
+    list-style-type: circle;
+    padding: 0;
+}
+
+.image-gallery ul li {
+    margin: 10px 0;
+}
+
+.image-gallery img {
+    width: 250px;
+    height: 250px;
+}
