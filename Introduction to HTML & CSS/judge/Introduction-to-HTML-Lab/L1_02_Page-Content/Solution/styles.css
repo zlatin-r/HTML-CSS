@@ -1,0 +1,12 @@
+section {
+    padding: 100px;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+p {
+    font-style: italic;
+}

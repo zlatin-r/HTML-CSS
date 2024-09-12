@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e1b97f5-b849-4a92-8e24-9250beada823" name="Changes" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/judge/Introduction-to-HTML-Lab/L1_01_Navigation-Bar/Solution/styles.css" afterDir="false" />
+    <list default="true" id="9e1b97f5-b849-4a92-8e24-9250beada823" name="Changes" comment="Solution">
+      <change afterPath="$PROJECT_DIR$/judge/Introduction-to-HTML-Lab/L1_02_Page-Content/Solution/page_content.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/judge/Introduction-to-HTML-Lab/L1_02_Page-Content/Solution/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/judge/Introduction-to-HTML-Lab/L1_01_Navigation-Bar/Solution/navigation_bar.html" beforeDir="false" afterPath="$PROJECT_DIR$/judge/Introduction-to-HTML-Lab/L1_01_Navigation-Bar/Solution/navigation_bar.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +54,7 @@
     "JavaScript Debug.images.html.executor": "Run",
     "JavaScript Debug.marking_text_links_strong_emphasis_and_more.html.executor": "Run",
     "JavaScript Debug.navigation_bar.html.executor": "Run",
+    "JavaScript Debug.page_content.html.executor": "Run",
     "JavaScript Debug.semantic_tag_nav.html.executor": "Run",
     "JavaScript Debug.semantic_tags_article_session.html.executor": "Run",
     "JavaScript Debug.semantic_tags_blockquote.html.executor": "Run",
@@ -85,7 +86,7 @@
       <recent name="$PROJECT_DIR$/Resources/.idea" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.navigation_bar.html">
+  <component name="RunManager" selected="JavaScript Debug.page_content.html">
     <configuration name="combinators.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/Resources/02-css/02/combinators.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -95,19 +96,19 @@
     <configuration name="navigation_bar.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/judge/Introduction-to-HTML-Lab/L1_01_Navigation-Bar/Solution/navigation_bar.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="simple_selectors.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/Resources/02-css/01/simple_selectors.html" useBuiltInWebServerPort="true">
+    <configuration name="page_content.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/judge/Introduction-to-HTML-Lab/L1_02_Page-Content/Solution/page_content.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="wiki_article.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/Resources/01-html/14/wiki_article.html" useBuiltInWebServerPort="true">
+    <configuration name="simple_selectors.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/Resources/02-css/01/simple_selectors.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.page_content.html" />
         <item itemvalue="JavaScript Debug.navigation_bar.html" />
         <item itemvalue="JavaScript Debug.compound_selectors.html" />
         <item itemvalue="JavaScript Debug.combinators.html" />
         <item itemvalue="JavaScript Debug.simple_selectors.html" />
-        <item itemvalue="JavaScript Debug.wiki_article.html" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +129,7 @@
       <option name="presentableId" value="Default" />
       <updated>1726125107378</updated>
       <workItem from="1726125108435" duration="9031000" />
-      <workItem from="1726134166406" duration="12963000" />
+      <workItem from="1726134166406" duration="15646000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -354,7 +355,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726147410256</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Solution">
+      <option name="closed" value="true" />
+      <created>1726148698579</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1726148698579</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,8 +381,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Solution" />
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solution" />
   </component>
 </project>
