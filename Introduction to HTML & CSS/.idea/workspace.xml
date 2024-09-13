@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e1b97f5-b849-4a92-8e24-9250beada823" name="Changes" comment="Solution">
-      <change afterPath="$PROJECT_DIR$/Resources Exercise/05/single-post.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources Exercise/05/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources Exercise/06/blog-layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources Exercise/06/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +49,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.blog-layout.html.executor": "Run",
     "JavaScript Debug.combinators.html.executor": "Run",
     "JavaScript Debug.compound_selectors.html.executor": "Run",
     "JavaScript Debug.exam_result.html.executor": "Run",
@@ -95,8 +96,8 @@
       <recent name="$PROJECT_DIR$/Resources/.idea" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.single-post.html">
-    <configuration name="image-gallery.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/Resources Exercise/01/image-gallery.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.blog-layout.html">
+    <configuration name="blog-layout.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/Resources Exercise/06/blog-layout.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="list-of-posts.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/Resources Exercise/04/list-of-posts.html" useBuiltInWebServerPort="true">
@@ -113,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.blog-layout.html" />
         <item itemvalue="JavaScript Debug.single-post.html" />
         <item itemvalue="JavaScript Debug.list-of-posts.html" />
         <item itemvalue="JavaScript Debug.navigation.html" />
         <item itemvalue="JavaScript Debug.todo-list.html" />
-        <item itemvalue="JavaScript Debug.image-gallery.html" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +140,7 @@
       <updated>1726125107378</updated>
       <workItem from="1726125108435" duration="9031000" />
       <workItem from="1726134166406" duration="26395000" />
-      <workItem from="1726221231930" duration="8174000" />
+      <workItem from="1726221231930" duration="11067000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -461,7 +462,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726237711152</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Solution">
+      <option name="closed" value="true" />
+      <created>1726240019133</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1726240019133</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
