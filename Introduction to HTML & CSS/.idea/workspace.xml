@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e1b97f5-b849-4a92-8e24-9250beada823" name="Changes" comment="Solution">
-      <change afterPath="$PROJECT_DIR$/Resources Exercise/02/todo-list.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources Exercise/02/todo-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources Exercise/03/navigation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources Exercise/03/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +56,7 @@
     "JavaScript Debug.images.html.executor": "Run",
     "JavaScript Debug.main.html.executor": "Run",
     "JavaScript Debug.marking_text_links_strong_emphasis_and_more.html.executor": "Run",
+    "JavaScript Debug.navigation.html.executor": "Run",
     "JavaScript Debug.navigation_bar.html.executor": "Run",
     "JavaScript Debug.page_content.html.executor": "Run",
     "JavaScript Debug.semantic_tag_nav.html.executor": "Run",
@@ -91,7 +92,7 @@
       <recent name="$PROJECT_DIR$/Resources/.idea" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.todo-list.html">
+  <component name="RunManager" selected="JavaScript Debug.navigation.html">
     <configuration name="exam_result.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/judge/Introduction-to-HTML-Lab/L1_04_Exam Results/Solution/exam_result.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -101,7 +102,7 @@
     <configuration name="main.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/judge/Introduction-to-HTML-Lab/L1_04_Exam Results/Solution-2/main.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="simple_website.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/judge/Introduction-to-HTML-Lab/L1_03_Simple-Website/Solution/simple_website.html" useBuiltInWebServerPort="true">
+    <configuration name="navigation.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/Resources Exercise/03/navigation.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="todo-list.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/Resources Exercise/02/todo-list.html" useBuiltInWebServerPort="true">
@@ -109,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.navigation.html" />
         <item itemvalue="JavaScript Debug.todo-list.html" />
         <item itemvalue="JavaScript Debug.image-gallery.html" />
         <item itemvalue="JavaScript Debug.main.html" />
         <item itemvalue="JavaScript Debug.exam_result.html" />
-        <item itemvalue="JavaScript Debug.simple_website.html" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +136,7 @@
       <updated>1726125107378</updated>
       <workItem from="1726125108435" duration="9031000" />
       <workItem from="1726134166406" duration="26395000" />
-      <workItem from="1726221231930" duration="3758000" />
+      <workItem from="1726221231930" duration="4451000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -425,7 +426,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726234673939</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Solution">
+      <option name="closed" value="true" />
+      <created>1726235079066</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1726235079066</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
