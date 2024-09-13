@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e1b97f5-b849-4a92-8e24-9250beada823" name="Changes" comment="Solution">
-      <change afterPath="$PROJECT_DIR$/Resources Exercise/04/list-of-posts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources Exercise/04/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources Exercise/05/single-post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources Exercise/05/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,6 +70,7 @@
     "JavaScript Debug.simple_html_document.html.executor": "Run",
     "JavaScript Debug.simple_selectors.html.executor": "Run",
     "JavaScript Debug.simple_website.html.executor": "Run",
+    "JavaScript Debug.single-post.html.executor": "Run",
     "JavaScript Debug.task_2.html.executor": "Run",
     "JavaScript Debug.task_3.html.executor": "Run",
     "JavaScript Debug.todo-list.html.executor": "Run",
@@ -83,6 +84,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -93,17 +95,17 @@
       <recent name="$PROJECT_DIR$/Resources/.idea" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.list-of-posts.html">
+  <component name="RunManager" selected="JavaScript Debug.single-post.html">
     <configuration name="image-gallery.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/Resources Exercise/01/image-gallery.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="list-of-posts.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/Resources Exercise/04/list-of-posts.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="main.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/judge/Introduction-to-HTML-Lab/L1_04_Exam Results/Solution-2/main.html" useBuiltInWebServerPort="true">
+    <configuration name="navigation.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/Resources Exercise/03/navigation.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="navigation.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/Resources Exercise/03/navigation.html" useBuiltInWebServerPort="true">
+    <configuration name="single-post.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/Resources Exercise/05/single-post.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="todo-list.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/Resources Exercise/02/todo-list.html" useBuiltInWebServerPort="true">
@@ -111,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.single-post.html" />
         <item itemvalue="JavaScript Debug.list-of-posts.html" />
         <item itemvalue="JavaScript Debug.navigation.html" />
         <item itemvalue="JavaScript Debug.todo-list.html" />
         <item itemvalue="JavaScript Debug.image-gallery.html" />
-        <item itemvalue="JavaScript Debug.main.html" />
       </list>
     </recent_temporary>
   </component>
@@ -137,7 +139,7 @@
       <updated>1726125107378</updated>
       <workItem from="1726125108435" duration="9031000" />
       <workItem from="1726134166406" duration="26395000" />
-      <workItem from="1726221231930" duration="5758000" />
+      <workItem from="1726221231930" duration="8174000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -451,7 +453,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726235772116</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Solution">
+      <option name="closed" value="true" />
+      <created>1726237711152</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1726237711152</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
