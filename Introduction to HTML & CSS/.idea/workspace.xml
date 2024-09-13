@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e1b97f5-b849-4a92-8e24-9250beada823" name="Changes" comment="Solution">
+      <change afterPath="$PROJECT_DIR$/Resources Exercise/01/image-gallery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources Exercise/01/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/judge/Introduction-to-HTML-Lab/L1_04_Exam Results/Solution/exam_result.html" beforeDir="false" afterPath="$PROJECT_DIR$/judge/Introduction-to-HTML-Lab/L1_04_Exam Results/Solution/exam_result.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +52,9 @@
     "JavaScript Debug.combinators.html.executor": "Run",
     "JavaScript Debug.compound_selectors.html.executor": "Run",
     "JavaScript Debug.exam_result.html.executor": "Run",
+    "JavaScript Debug.image-gallery.html.executor": "Run",
     "JavaScript Debug.images.html.executor": "Run",
+    "JavaScript Debug.main.html.executor": "Run",
     "JavaScript Debug.marking_text_links_strong_emphasis_and_more.html.executor": "Run",
     "JavaScript Debug.navigation_bar.html.executor": "Run",
     "JavaScript Debug.page_content.html.executor": "Run",
@@ -87,14 +90,14 @@
       <recent name="$PROJECT_DIR$/Resources/.idea" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.exam_result.html">
-    <configuration name="compound_selectors.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/Resources/02-css/03/compound_selectors.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.image-gallery.html">
     <configuration name="exam_result.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/judge/Introduction-to-HTML-Lab/L1_04_Exam Results/Solution/exam_result.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="navigation_bar.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/judge/Introduction-to-HTML-Lab/L1_01_Navigation-Bar/Solution/navigation_bar.html" useBuiltInWebServerPort="true">
+    <configuration name="image-gallery.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/Resources Exercise/01/image-gallery.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="main.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/judge/Introduction-to-HTML-Lab/L1_04_Exam Results/Solution-2/main.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="page_content.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/judge/Introduction-to-HTML-Lab/L1_02_Page-Content/Solution/page_content.html" useBuiltInWebServerPort="true">
@@ -105,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.image-gallery.html" />
+        <item itemvalue="JavaScript Debug.main.html" />
         <item itemvalue="JavaScript Debug.exam_result.html" />
         <item itemvalue="JavaScript Debug.simple_website.html" />
         <item itemvalue="JavaScript Debug.page_content.html" />
-        <item itemvalue="JavaScript Debug.navigation_bar.html" />
-        <item itemvalue="JavaScript Debug.compound_selectors.html" />
       </list>
     </recent_temporary>
   </component>
@@ -130,7 +133,8 @@
       <option name="presentableId" value="Default" />
       <updated>1726125107378</updated>
       <workItem from="1726125108435" duration="9031000" />
-      <workItem from="1726134166406" duration="25948000" />
+      <workItem from="1726134166406" duration="26395000" />
+      <workItem from="1726221231930" duration="3119000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -396,7 +400,23 @@
       <option name="project" value="LOCAL" />
       <updated>1726160566421</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Solution">
+      <option name="closed" value="true" />
+      <created>1726161562439</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1726161562439</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Solution">
+      <option name="closed" value="true" />
+      <created>1726161714447</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1726161714447</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
