@@ -1,6 +1,5 @@
 p.highlight {
     color: dodgerblue;
-    font-style: oblique;
 }
 
 div#uniqueDiv {
@@ -8,4 +7,21 @@ div#uniqueDiv {
     padding: 5px;
 }
 
-/*TODO FINISH THE TASK*/
+.item-list li:first-child {
+    color: #17A2B8;
+}
+
+.item-list li:nth-child(3) {
+    color: #DC3545;
+    font-style: italic;
+}
+
+p.website-link a {
+    color: coral;
+    text-decoration:underline;
+    border-bottom: 1.5px solid coral;
+}
+
+p.multiple-classes {
+    color: #0000EE;
+}
