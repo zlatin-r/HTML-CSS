@@ -25,3 +25,32 @@ p.website-link a {
 p.multiple-classes {
     color: #0000EE;
 }
+
+input[type="text"].input-field {
+  border: 2px solid #32CD32; /* Lime green border */
+  padding: 10px;
+}
+
+/* Low specificity */
+.container {
+  background-color: lightgray;
+  padding: 10px;
+}
+
+/* Higher specificity due to ID selector */
+#special-container {
+  background-color: lightblue;
+}
+
+/* Even higher specificity with both ID and class */
+div#special-container.container {
+  background-color: coral;
+}
+
+div.inputs {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    gap: 10px;
+    max-width: 200px;
+}
