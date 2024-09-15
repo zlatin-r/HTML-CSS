@@ -16,20 +16,36 @@
     </h1>
 </header>
 
-<p>------------------Child Combinator------------------</p>
 <nav>
-    <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
 </nav>
 
-<p>
-    This is some text, and here is a regular
-    <a href="#link">link</a>
-    that isn't in the nav.
-</p>
+<p>Check out this <a href="#external">external link</a> that isn't part of the navigation.</p>
+
+<p>------------------Child Combinator------------------</p>
+<div class="parent-class">
+  <section>
+    <h2>Direct Child Section 1</h2>
+    <p>This section is a direct child of the div.</p>
+  </section>
+  <section>
+    <h2>Direct Child Section 2</h2>
+    <p>This section is also a direct child of the div.</p>
+  </section>
+
+  <div>
+    <section>
+      <h2>Nested Section</h2>
+      <p>This section is nested within another div and will not be styled.</p>
+    </section>
+  </div>
+</div>
+
 
 <p>------------------Adjacent Sibling Combinator------------------</p>
 <div class="parent-class">
@@ -51,27 +67,31 @@
 </div>
 
 <p>------------------General Sibling Combinator------------------</p>
-<section>
-    <h2>Section 1</h2>
-    <p>This is the content of the first section.</p>
+<section class="special">
+  <h2>Special Section</h2>
+  <p>This section has the 'special' class.</p>
 </section>
 
-<header>
-    <h1>Header 1</h1>
-    <p>This header immediately follows the section.</p>
-</header>
+<article>
+  <h3>Article 1</h3>
+  <p>This article follows the special section.</p>
+</article>
+
+<article>
+  <h3>Article 2</h3>
+  <p>This article also follows the special section.</p>
+</article>
 
 <section>
-    <h2>Section 2</h2>
-    <p>This is the content of the second section.</p>
+  <h2>Another Section</h2>
+  <p>This section does not have the 'special' class.</p>
 </section>
 
-<div>
-    <header>
-        <h1>Header 2</h1>
-        <p>This header is not immediately following a section, so it won't be styled.</p>
-    </header>
-</div>
+<article>
+  <h3>Article 3</h3>
+  <p>This article does not follow the 'special' section.</p>
+</article>
+
 
 <p>------------------Attribute Selector------------------</p>
 <form class="my-form-class">
@@ -126,6 +146,8 @@
   <li>Item 5</li>
   <li>Item 6 (styled)</li>
 </ul>
+
+<br>
 
 <p>5. Combining Pseudo-Classes with Classes or IDs</p>
 <ul class="special-list">

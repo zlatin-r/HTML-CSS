@@ -1,3 +1,4 @@
+/*Descendant Selector*/
 header h1 .span-l-el, header h1 .span-r-el {
     font-weight: bold;
     color: saddlebrown;
@@ -9,23 +10,28 @@ nav a {
     font-weight: bold;
 }
 
-a {
-    color: blue; /* Default style for all other <a> elements */
-}
-
+/*Child Combinator*/
 div.parent-class > section {
-    background-color: lightgray; /* Style for direct child <section> elements */
-    padding: 20px;
-    border: 1px solid black;
-    margin-bottom: 10px;
+  background-color: lightgray; /* Style for direct child <section> elements */
+  padding: 20px;
+  border: 1px solid black;
 }
 
+/*Adjacent Sibling Combinator*/
 section + header {
     background-color: lightblue; /* Unique style for the adjacent <header> */
     padding: 20px;
     border-bottom: 2px solid darkblue;
 }
 
+/*General Sibling Combinator*/
+section.special + article {
+  background-color: lightyellow; /* Style for <article> elements following <section> with class 'special' */
+  padding: 15px;
+  border: 1px solid #ccc;
+}
+
+/*Attribute Selector*/
 form.my-form-class input[type="text"] {
     border: 2px solid #4CAF50; /* Green border */
     padding: 10px;
