@@ -1,0 +1,48 @@
+/*Selector List for Layout Styles*/
+header, section, footer, nav {
+    margin: 20px auto; /* Adds 20px margin on top and bottom, auto centering horizontally */
+    padding: 15px; /* Adds 15px padding inside each element */
+    max-width: 1200px; /* Optional: limits the maximum width for better alignment */
+    box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+}
+
+/*!*Selector List for Text Styles*!*/
+/*h1, h2, p {*/
+/*  font-family: 'Arial', sans-serif; !* Unified font family *!*/
+/*  color: #711212; !* Unified text color *!*/
+/*}*/
+
+/*Selector List for Hover Effects*/
+nav a:hover,
+section a:hover,
+footer a:hover {
+    color: #ff4500; /* Orange color on hover */
+    text-decoration: underline; /* Underline text on hover */
+}
+
+/*Combining Different Types of Selectors*/
+/* Simple Selector: Target all <p> elements */
+p {
+  font-family: 'Verdana', sans-serif;
+}
+
+/* Compound Selector: Target <h2> elements inside .highlighted classed elements */
+.highlighted h2 {
+  color: #ff6347; /* Tomato color */
+}
+
+/* Complex Selector: Target <a> elements that are descendants of <nav> but not <footer> */
+nav a {
+  color: #4682b4; /* Steel blue color */
+  text-decoration: none;
+}
+
+footer a {
+  color: #008080; /* Teal color */
+}
+
+/* Combined Selector List: Apply styles to <h1> and <section> elements, and <a> elements within <nav> */
+h1, section p, nav a {
+  border-bottom: 2px solid #333; /* Bottom border */
+  padding-bottom: 5px;
+}
