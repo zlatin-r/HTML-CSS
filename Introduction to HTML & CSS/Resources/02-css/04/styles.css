@@ -1,0 +1,94 @@
+header h1 .span-l-el, header h1 .span-r-el {
+    font-weight: bold;
+    color: saddlebrown;
+}
+
+nav a {
+    color: green; /* Style for <a> elements inside <nav> */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a {
+    color: blue; /* Default style for all other <a> elements */
+}
+
+div.parent-class > section {
+    background-color: lightgray; /* Style for direct child <section> elements */
+    padding: 20px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+section + header {
+    background-color: lightblue; /* Unique style for the adjacent <header> */
+    padding: 20px;
+    border-bottom: 2px solid darkblue;
+}
+
+form.my-form-class input[type="text"] {
+    border: 2px solid #4CAF50; /* Green border */
+    padding: 10px;
+    background-color: rgba(255, 22, 22, 0.38);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+}
+
+/*1. :first-child Selector*/
+.first-child-selector li:first-child {
+    font-weight: bold;
+    color: green;
+}
+
+/*2. :last-child Selector*/
+.last-child-selector p:last-child {
+    color: red;
+    font-style: italic;
+}
+
+/*3. :nth-of-type(n) Selector*/
+.nth-child-selector p:nth-of-type(2) {
+    color: blue;
+    font-size: 18px;
+}
+
+/*4. :nth-child(n) Selector*/
+.nth-child-selector-n li:nth-child(3n) {
+    background-color: yellow;
+}
+
+/*5. Combining Pseudo-Classes with Classes or IDs*/
+ul.special-list li:first-child {
+    text-transform: uppercase;
+    background-color: lightgray;
+}
+
+/*1. Adding Content Before an Element with ::before*/
+.pseudo-el-before::before {
+    content: "%E2%98%85 ";
+    color: gold;
+    font-size: 24px;
+}
+
+/*2. Adding Content After an Element with ::after*/
+.pseudo-el-after::after {
+    content: " (Read more)";
+    color: blue;
+    font-style: italic;
+}
+
+/*3. Adding Decorative Elements with Specific Classes*/
+.special-item::before {
+    content: "✨ ";
+    color: #ff69b4; /* Hot pink */
+    font-size: 20px;
+}
+
+.special-item::after {
+    content: " ✨";
+    color: #ff69b4;
+}

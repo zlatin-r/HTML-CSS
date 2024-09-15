@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Complex Selectors</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<p>------------------Descendant Selector------------------</p>
+<header>
+    <h1 id="h1-el">
+        <span class="span-l-el">>></span>
+        Our Services
+        <span class="span-r-el"><<</span>
+    </h1>
+</header>
+
+<p>------------------Child Combinator------------------</p>
+<nav>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<p>
+    This is some text, and here is a regular
+    <a href="#link">link</a>
+    that isn't in the nav.
+</p>
+
+<p>------------------Adjacent Sibling Combinator------------------</p>
+<div class="parent-class">
+    <section>
+        <h2>Direct Child Section 1</h2>
+        <p>This section is a direct child of the div.</p>
+    </section>
+    <section>
+        <h2>Direct Child Section 2</h2>
+        <p>This section is also a direct child of the div.</p>
+    </section>
+
+    <div>
+        <section>
+            <h2>Nested Section</h2>
+            <p>This section is nested within another div and will not be styled.</p>
+        </section>
+    </div>
+</div>
+
+<p>------------------General Sibling Combinator------------------</p>
+<section>
+    <h2>Section 1</h2>
+    <p>This is the content of the first section.</p>
+</section>
+
+<header>
+    <h1>Header 1</h1>
+    <p>This header immediately follows the section.</p>
+</header>
+
+<section>
+    <h2>Section 2</h2>
+    <p>This is the content of the second section.</p>
+</section>
+
+<div>
+    <header>
+        <h1>Header 2</h1>
+        <p>This header is not immediately following a section, so it won't be styled.</p>
+    </header>
+</div>
+
+<p>------------------Attribute Selector------------------</p>
+<form class="my-form-class">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username">
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password">
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+</form>
+
+<form>
+    <input type="text" name="another-text-field" placeholder="This text input won't be styled">
+</form>
+
+<p>------------------Pseudo-class Selector------------------</p>
+<p>1. :first-child Selector</p>
+<ul class="first-child-selector">
+  <li>First item (styled)</li>
+  <li>Second item</li>
+  <li>Third item</li>
+</ul>
+
+<br>
+
+<p>2. last-child Selector</p>
+<div class="last-child-selector">
+  <p>First paragraph</p>
+  <p>Second paragraph</p>
+  <p>Last paragraph (styled)</p>
+</div>
+
+<br>
+
+<p>3. nth-of-type(n) Selector</p>
+<div class="nth-child-selector">
+  <p>First paragraph</p>
+  <p>Second paragraph (styled)</p>
+  <p>Third paragraph</p>
+</div>
+
+<br>
+
+<p>4. nth-child(n) Selector</p>
+<ul class="nth-child-selector-n">
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3 (styled)</li>
+  <li>Item 4</li>
+  <li>Item 5</li>
+  <li>Item 6 (styled)</li>
+</ul>
+
+<p>5. Combining Pseudo-Classes with Classes or IDs</p>
+<ul class="special-list">
+  <li>First item (styled)</li>
+  <li>Second item</li>
+  <li>Third item</li>
+</ul>
+
+<p>------------------Pseudo-element Selector------------------</p>
+<p>1. Adding Content Before an Element with ::before</p>
+<h2 class="pseudo-el-before">Section Title</h2>
+
+<p>2. Adding Content After an Element with ::after</p>
+<p class="pseudo-el-after">This is a paragraph.</p>
+
+<p>3. Adding Decorative Elements with Specific Classes</p>
+<ul>
+  <li class="special-item">Important Item</li>
+  <li>Regular Item</li>
+</ul>
+
+
+
+</body>
+</html>
