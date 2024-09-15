@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Relative Selectors</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<p>---------------Descendant Selector---------------</p>
+<section>
+    <h2>Section Title</h2>
+    <p>This paragraph is inside the section and will be styled with dark green and italic text.</p>
+    <p>Another paragraph inside the section with the same style.</p>
+</section>
+
+<div>
+    <p>This paragraph is outside of any section and will have default styling.</p>
+</div>
+
+<section>
+    <p>Another styled paragraph inside a section.</p>
+</section>
+
+<p>---------------Child Selector---------------</p>
+<ul class="special-list">
+    <li>Special Item 1</li>
+    <li>Special Item 2</li>
+    <li>Special Item 3</li>
+</ul>
+
+<ul>
+    <li>Regular Item 1</li>
+    <li>Regular Item 2</li>
+    <li>Regular Item 3</li>
+</ul>
+
+<p>---------------Adjacent Sibling Selector---------------</p>
+<article>
+    <h2>Article 1</h2>
+    <p>This is the first article.</p>
+</article>
+
+<article>
+    <h2>Article 2</h2>
+    <p>This is the second article and will be styled with a blue border on top and a light gray background.</p>
+</article>
+
+<article>
+    <h2>Article 3</h2>
+    <p>This is the third article and will not be affected by the adjacent sibling styling.</p>
+</article>
+
+<p class="some">--------------------Combining Relative Selectors-------------------</p>
+<ul>
+    <li>Item 1</li>
+    <li class="highlighted">Item 2</li>
+    <li><a href="#">Link 1</a></li>
+    <li><a href="#">Link 2</a></li>
+    <li class="highlighted">Item 3</li>
+    <li><a href="#">Link 3</a></li>
+</ul>
+
+<p>-------------------General Sibling Selector--------------------</p>
+<h2>Special Heading 1</h2>
+<p>This paragraph will not be styled by the general sibling selector because it follows a heading without the special
+    class.</p>
+
+<h2 class="special">Special Heading 2</h2>
+<p>This paragraph will also be styled because it is a sibling following the second special heading.</p>
+
+<h3>Another Heading</h3>
+<p>This paragraph will be styled because it is a sibling following the first special heading.</p>
+
+</body>
+</html>

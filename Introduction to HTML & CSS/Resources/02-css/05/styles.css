@@ -1,0 +1,32 @@
+/*Descendant Selector*/
+section p {
+    color: darkgreen; /* Style for <p> elements inside <section> */
+    font-style: italic;
+}
+
+/*Child Selector*/
+ul.special-list > li {
+    color: blue; /* Style for <li> elements that are direct children of <ul> with class 'special-list' */
+    font-weight: bold;
+    background-color: lightgray;
+}
+
+/*Adjacent Sibling Selector*/
+article + article {
+    border-top: 2px solid #007BFF; /* Add a blue border on top of the second <article> */
+    padding: 15px;
+    background-color: #bdbdbd; /* Light gray background for the second <article> */
+}
+
+/*Combining Relative Selectors*/
+/* Style <a> elements within <li> that are directly after an <li> with class "highlighted" */
+li.highlighted + li > a {
+    color: #ff6347; /* Tomato color for <a> elements */
+    font-weight: bold;
+}
+
+/*General Sibling Selector*/
+h2.special ~ p {
+    color: #ff6347; /* Tomato color for <p> elements */
+    font-style: italic;
+}
