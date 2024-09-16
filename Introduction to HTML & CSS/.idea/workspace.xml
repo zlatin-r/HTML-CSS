@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e1b97f5-b849-4a92-8e24-9250beada823" name="Changes" comment="Solution">
-      <change afterPath="$PROJECT_DIR$/More Tasks/02.CSS/03.Selector-Cardio-ID/selector-cardio-element.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/More Tasks/02.CSS/02.Selector-Cardio-Class/selector-cardio-element.html" beforeDir="false" afterPath="$PROJECT_DIR$/More Tasks/02.CSS/02.Selector-Cardio-Class/selector-cardio-element.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/More Tasks/02.CSS/05.CSS-Properties-Cardio-Background/selector-cardio-element.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/More Tasks/02.CSS/05.CSS-Properties-Cardio-Background/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -64,6 +65,7 @@
     "JavaScript Debug.nested-lists.html.executor": "Run",
     "JavaScript Debug.page_content.html.executor": "Run",
     "JavaScript Debug.relative-selectors.html.executor": "Run",
+    "JavaScript Debug.selector-cardio-element.html.executor": "Run",
     "JavaScript Debug.semantic-details-and-summary.html.executor": "Run",
     "JavaScript Debug.semantic-header.html.executor": "Run",
     "JavaScript Debug.semantic_tag_nav.html.executor": "Run",
@@ -85,7 +87,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/zl/HTML-CSS/Introduction to HTML & CSS/More Tasks/02.CSS/03.Selector-Cardio-ID",
+    "last_opened_file_path": "/home/zl/HTML-CSS/Introduction to HTML & CSS/More Tasks/02.CSS/06.CSS-Properties-Cardio-Color",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -97,6 +99,11 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/More Tasks/02.CSS/04.Selector-Cardio-Attribute" />
+      <recent name="$PROJECT_DIR$/More Tasks/02.CSS/03.Selector-Cardio-ID" />
+      <recent name="$PROJECT_DIR$/More Tasks/02.CSS/02.Selector-Cardio-Class" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Resources/01-html" />
@@ -150,15 +157,7 @@
       <workItem from="1726221231930" duration="11490000" />
       <workItem from="1726383520018" duration="12566000" />
       <workItem from="1726402300982" duration="12000" />
-      <workItem from="1726485966711" duration="6148000" />
-    </task>
-    <task id="LOCAL-00014" summary="Solution">
-      <option name="closed" value="true" />
-      <created>1726134232398</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1726134232399</updated>
+      <workItem from="1726485966711" duration="6467000" />
     </task>
     <task id="LOCAL-00015" summary="Solution">
       <option name="closed" value="true" />
@@ -544,7 +543,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726492114391</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Solution">
+      <option name="closed" value="true" />
+      <created>1726492297791</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1726492297792</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
