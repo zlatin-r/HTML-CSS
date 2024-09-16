@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e1b97f5-b849-4a92-8e24-9250beada823" name="Changes" comment="Solution">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/More Tasks/01.HTML/10.Tag-Cardio-Semantic-HTML-Nav/semantic-nav.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +16,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -44,51 +44,55 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.blog-layout.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.combinators.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.complex-selectors.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.compound_selectors.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.exam_result.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.image-gallery.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.images.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.list-of-posts.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.main.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.marking_text_links_strong_emphasis_and_more.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.navigation.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.navigation_bar.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.page_content.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.relative-selectors.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.semantic_tag_nav.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.semantic_tags_article_session.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.semantic_tags_blockquote.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.semantic_tags_details_summary.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.semantic_tags_figure_figcapture.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.semantic_tags_header_main_footer.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.semantic_tags_time.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.simple_html_document.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.simple_selectors.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.simple_website.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.single-post.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.task_2.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.task_3.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.todo-list.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.wiki_article.html.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/zl/HTML-CSS/Introduction to HTML &amp; CSS&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.blog-layout.html.executor": "Run",
+    "JavaScript Debug.combinators.html.executor": "Run",
+    "JavaScript Debug.complex-selectors.html.executor": "Run",
+    "JavaScript Debug.compound_selectors.html.executor": "Run",
+    "JavaScript Debug.exam_result.html.executor": "Run",
+    "JavaScript Debug.headers.html.executor": "Run",
+    "JavaScript Debug.image-gallery.html.executor": "Run",
+    "JavaScript Debug.images.html.executor": "Run",
+    "JavaScript Debug.list-of-posts.html.executor": "Run",
+    "JavaScript Debug.main.html.executor": "Run",
+    "JavaScript Debug.marking_text_links_strong_emphasis_and_more.html.executor": "Run",
+    "JavaScript Debug.navigation.html.executor": "Run",
+    "JavaScript Debug.navigation_bar.html.executor": "Run",
+    "JavaScript Debug.nested-lists.html.executor": "Run",
+    "JavaScript Debug.page_content.html.executor": "Run",
+    "JavaScript Debug.relative-selectors.html.executor": "Run",
+    "JavaScript Debug.semantic-header.html.executor": "Run",
+    "JavaScript Debug.semantic_tag_nav.html.executor": "Run",
+    "JavaScript Debug.semantic_tags_article_session.html.executor": "Run",
+    "JavaScript Debug.semantic_tags_blockquote.html.executor": "Run",
+    "JavaScript Debug.semantic_tags_details_summary.html.executor": "Run",
+    "JavaScript Debug.semantic_tags_figure_figcapture.html.executor": "Run",
+    "JavaScript Debug.semantic_tags_header_main_footer.html.executor": "Run",
+    "JavaScript Debug.semantic_tags_time.html.executor": "Run",
+    "JavaScript Debug.simple_html_document.html.executor": "Run",
+    "JavaScript Debug.simple_selectors.html.executor": "Run",
+    "JavaScript Debug.simple_website.html.executor": "Run",
+    "JavaScript Debug.single-post.html.executor": "Run",
+    "JavaScript Debug.site-texts.html.executor": "Run",
+    "JavaScript Debug.task_2.html.executor": "Run",
+    "JavaScript Debug.task_3.html.executor": "Run",
+    "JavaScript Debug.todo-list.html.executor": "Run",
+    "JavaScript Debug.wiki_article.html.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/zl/HTML-CSS/Introduction to HTML & CSS",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -96,29 +100,29 @@
       <recent name="$PROJECT_DIR$/Resources/.idea" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.relative-selectors.html">
-    <configuration name="blog-layout.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/Resources Exercise/06/blog-layout.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.semantic-header.html">
+    <configuration name="headers.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/More Tasks/01.HTML/01.Tag-Cardio-Headers/headers.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="complex-selectors.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/Resources/02-css/04/complex-selectors.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="compound_selectors.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/Resources/02-css/03/compound_selectors.html" useBuiltInWebServerPort="true">
+    <configuration name="nested-lists.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/More Tasks/01.HTML/03.Tag-Cardio-Ordered-and-Unordered-Lists/nested-lists.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="relative-selectors.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/Resources/02-css/05/relative-selectors.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="single-post.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/Resources Exercise/05/single-post.html" useBuiltInWebServerPort="true">
+    <configuration name="semantic-header.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/More Tasks/01.HTML/05.Tag-Cardio-Semantic-HTML-Header/semantic-header.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="site-texts.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/More Tasks/01.HTML/04.Tag-Cardio-Definition-Lists/site-texts.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.semantic-header.html" />
+        <item itemvalue="JavaScript Debug.site-texts.html" />
+        <item itemvalue="JavaScript Debug.nested-lists.html" />
+        <item itemvalue="JavaScript Debug.headers.html" />
         <item itemvalue="JavaScript Debug.relative-selectors.html" />
-        <item itemvalue="JavaScript Debug.complex-selectors.html" />
-        <item itemvalue="JavaScript Debug.compound_selectors.html" />
-        <item itemvalue="JavaScript Debug.blog-layout.html" />
-        <item itemvalue="JavaScript Debug.single-post.html" />
       </list>
     </recent_temporary>
   </component>
@@ -143,78 +147,7 @@
       <workItem from="1726221231930" duration="11490000" />
       <workItem from="1726383520018" duration="12566000" />
       <workItem from="1726402300982" duration="12000" />
-    </task>
-    <task id="LOCAL-00001" summary="Initial Commit">
-      <option name="closed" value="true" />
-      <created>1726125127901</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1726125127901</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Initial Commit">
-      <option name="closed" value="true" />
-      <created>1726125137487</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1726125137487</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Solution">
-      <option name="closed" value="true" />
-      <created>1726125986676</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1726125986676</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Solution">
-      <option name="closed" value="true" />
-      <created>1726126481133</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1726126481133</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Solution">
-      <option name="closed" value="true" />
-      <created>1726127324042</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1726127324042</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Solution">
-      <option name="closed" value="true" />
-      <created>1726127888503</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1726127888503</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Solution">
-      <option name="closed" value="true" />
-      <created>1726129532138</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1726129532138</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Solution">
-      <option name="closed" value="true" />
-      <created>1726130153017</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1726130153017</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Solution">
-      <option name="closed" value="true" />
-      <created>1726133271272</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1726133271272</updated>
+      <workItem from="1726485966711" duration="5499000" />
     </task>
     <task id="LOCAL-00010" summary="Solution">
       <option name="closed" value="true" />
@@ -528,7 +461,87 @@
       <option name="project" value="LOCAL" />
       <updated>1726395379927</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Solution">
+      <option name="closed" value="true" />
+      <created>1726486195722</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1726486195722</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Solution">
+      <option name="closed" value="true" />
+      <created>1726486582043</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1726486582044</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Solution">
+      <option name="closed" value="true" />
+      <created>1726486721889</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1726486721889</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Solution">
+      <option name="closed" value="true" />
+      <created>1726489604692</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1726489604692</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Solution">
+      <option name="closed" value="true" />
+      <created>1726489967177</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1726489967177</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Solution">
+      <option name="closed" value="true" />
+      <created>1726490953111</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1726490953111</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Solution">
+      <option name="closed" value="true" />
+      <created>1726491060132</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1726491060132</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Solution">
+      <option name="closed" value="true" />
+      <created>1726491176532</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1726491176532</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Solution">
+      <option name="closed" value="true" />
+      <created>1726491281110</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1726491281110</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Solution">
+      <option name="closed" value="true" />
+      <created>1726491395031</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1726491395031</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
