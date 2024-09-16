@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e1b97f5-b849-4a92-8e24-9250beada823" name="Changes" comment="Solution">
-      <change afterPath="$PROJECT_DIR$/More Tasks/02.CSS/05.CSS-Properties-Cardio-Background/selector-cardio-element.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/More Tasks/02.CSS/05.CSS-Properties-Cardio-Background/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/More Tasks/02.CSS/07.CSS-Properties-Cardio-Font-Family/selector-cardio-element.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/More Tasks/02.CSS/07.CSS-Properties-Cardio-Font-Family/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,6 +65,7 @@
     "JavaScript Debug.nested-lists.html.executor": "Run",
     "JavaScript Debug.page_content.html.executor": "Run",
     "JavaScript Debug.relative-selectors.html.executor": "Run",
+    "JavaScript Debug.selector-cardio-element.html (1).executor": "Run",
     "JavaScript Debug.selector-cardio-element.html.executor": "Run",
     "JavaScript Debug.semantic-details-and-summary.html.executor": "Run",
     "JavaScript Debug.semantic-header.html.executor": "Run",
@@ -87,7 +88,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/zl/HTML-CSS/Introduction to HTML & CSS/More Tasks/02.CSS/06.CSS-Properties-Cardio-Color",
+    "last_opened_file_path": "/home/zl/HTML-CSS/Introduction to HTML & CSS/More Tasks/02.CSS/07.CSS-Properties-Cardio-Font-Family",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -100,9 +101,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/More Tasks/02.CSS/07.CSS-Properties-Cardio-Font-Family" />
+      <recent name="$PROJECT_DIR$/More Tasks/02.CSS/06.CSS-Properties-Cardio-Color" />
+      <recent name="$PROJECT_DIR$/More Tasks/02.CSS/05.CSS-Properties-Cardio-Background" />
       <recent name="$PROJECT_DIR$/More Tasks/02.CSS/04.Selector-Cardio-Attribute" />
       <recent name="$PROJECT_DIR$/More Tasks/02.CSS/03.Selector-Cardio-ID" />
-      <recent name="$PROJECT_DIR$/More Tasks/02.CSS/02.Selector-Cardio-Class" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -110,8 +113,8 @@
       <recent name="$PROJECT_DIR$/Resources/.idea" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.selector-cardio-element.html">
-    <configuration name="nested-lists.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/More Tasks/01.HTML/03.Tag-Cardio-Ordered-and-Unordered-Lists/nested-lists.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.selector-cardio-element.html (1)">
+    <configuration name="selector-cardio-element.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/More Tasks/02.CSS/07.CSS-Properties-Cardio-Font-Family/selector-cardio-element.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="selector-cardio-element.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/More Tasks/02.CSS/04.Selector-Cardio-Attribute/selector-cardio-element.html" useBuiltInWebServerPort="true">
@@ -128,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.selector-cardio-element.html (1)" />
         <item itemvalue="JavaScript Debug.selector-cardio-element.html" />
         <item itemvalue="JavaScript Debug.semantic-details-and-summary.html" />
         <item itemvalue="JavaScript Debug.semantic-header.html" />
         <item itemvalue="JavaScript Debug.site-texts.html" />
-        <item itemvalue="JavaScript Debug.nested-lists.html" />
       </list>
     </recent_temporary>
   </component>
@@ -157,15 +160,7 @@
       <workItem from="1726221231930" duration="11490000" />
       <workItem from="1726383520018" duration="12566000" />
       <workItem from="1726402300982" duration="12000" />
-      <workItem from="1726485966711" duration="6467000" />
-    </task>
-    <task id="LOCAL-00015" summary="Solution">
-      <option name="closed" value="true" />
-      <created>1726134244726</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1726134244726</updated>
+      <workItem from="1726485966711" duration="6768000" />
     </task>
     <task id="LOCAL-00016" summary="Solution">
       <option name="closed" value="true" />
@@ -551,7 +546,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726492297792</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="Solution">
+      <option name="closed" value="true" />
+      <created>1726492539286</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1726492539286</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
