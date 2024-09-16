@@ -100,14 +100,14 @@
       <recent name="$PROJECT_DIR$/Resources/.idea" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.semantic-header.html">
+  <component name="RunManager" selected="JavaScript Debug.semantic-details-and-summary.html">
     <configuration name="headers.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/More Tasks/01.HTML/01.Tag-Cardio-Headers/headers.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="nested-lists.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/More Tasks/01.HTML/03.Tag-Cardio-Ordered-and-Unordered-Lists/nested-lists.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="relative-selectors.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/Resources/02-css/05/relative-selectors.html" useBuiltInWebServerPort="true">
+    <configuration name="semantic-details-and-summary.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/More Tasks/01.HTML/11.Tag-Cardio-Semantic-HTML-Details-and-Summary/semantic-details-and-summary.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="semantic-header.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/More Tasks/01.HTML/05.Tag-Cardio-Semantic-HTML-Header/semantic-header.html" useBuiltInWebServerPort="true">
@@ -118,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.semantic-details-and-summary.html" />
         <item itemvalue="JavaScript Debug.semantic-header.html" />
         <item itemvalue="JavaScript Debug.site-texts.html" />
         <item itemvalue="JavaScript Debug.nested-lists.html" />
         <item itemvalue="JavaScript Debug.headers.html" />
-        <item itemvalue="JavaScript Debug.relative-selectors.html" />
       </list>
     </recent_temporary>
   </component>
