@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e1b97f5-b849-4a92-8e24-9250beada823" name="Changes" comment="Solution" />
+    <list default="true" id="9e1b97f5-b849-4a92-8e24-9250beada823" name="Changes" comment="Solution">
+      <change afterPath="$PROJECT_DIR$/More Tasks/02.CSS/03.Selector-Cardio-ID/selector-cardio-element.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/More Tasks/02.CSS/02.Selector-Cardio-Class/selector-cardio-element.html" beforeDir="false" afterPath="$PROJECT_DIR$/More Tasks/02.CSS/02.Selector-Cardio-Class/selector-cardio-element.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,7 +85,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/zl/HTML-CSS/Introduction to HTML & CSS",
+    "last_opened_file_path": "/home/zl/HTML-CSS/Introduction to HTML & CSS/More Tasks/02.CSS/03.Selector-Cardio-ID",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -100,11 +103,11 @@
       <recent name="$PROJECT_DIR$/Resources/.idea" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.semantic-details-and-summary.html">
-    <configuration name="headers.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/More Tasks/01.HTML/01.Tag-Cardio-Headers/headers.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.selector-cardio-element.html">
+    <configuration name="nested-lists.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/More Tasks/01.HTML/03.Tag-Cardio-Ordered-and-Unordered-Lists/nested-lists.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="nested-lists.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/More Tasks/01.HTML/03.Tag-Cardio-Ordered-and-Unordered-Lists/nested-lists.html" useBuiltInWebServerPort="true">
+    <configuration name="selector-cardio-element.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/More Tasks/02.CSS/04.Selector-Cardio-Attribute/selector-cardio-element.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="semantic-details-and-summary.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Introduction to HTML &amp; CSS/More Tasks/01.HTML/11.Tag-Cardio-Semantic-HTML-Details-and-Summary/semantic-details-and-summary.html" useBuiltInWebServerPort="true">
@@ -118,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.selector-cardio-element.html" />
         <item itemvalue="JavaScript Debug.semantic-details-and-summary.html" />
         <item itemvalue="JavaScript Debug.semantic-header.html" />
         <item itemvalue="JavaScript Debug.site-texts.html" />
         <item itemvalue="JavaScript Debug.nested-lists.html" />
-        <item itemvalue="JavaScript Debug.headers.html" />
       </list>
     </recent_temporary>
   </component>
@@ -147,23 +150,7 @@
       <workItem from="1726221231930" duration="11490000" />
       <workItem from="1726383520018" duration="12566000" />
       <workItem from="1726402300982" duration="12000" />
-      <workItem from="1726485966711" duration="5826000" />
-    </task>
-    <task id="LOCAL-00012" summary="Solution">
-      <option name="closed" value="true" />
-      <created>1726133515803</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1726133515803</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Solution">
-      <option name="closed" value="true" />
-      <created>1726133969277</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1726133969277</updated>
+      <workItem from="1726485966711" duration="6148000" />
     </task>
     <task id="LOCAL-00014" summary="Solution">
       <option name="closed" value="true" />
@@ -541,7 +528,23 @@
       <option name="project" value="LOCAL" />
       <updated>1726491746775</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Solution">
+      <option name="closed" value="true" />
+      <created>1726491984396</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1726491984396</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Solution">
+      <option name="closed" value="true" />
+      <created>1726492114391</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1726492114391</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
