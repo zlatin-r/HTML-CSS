@@ -1,0 +1,65 @@
+html {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Lato, sans-serif;
+}
+
+p ol ul {
+    padding-bottom: 1.5em;
+}
+
+ol ul {
+    padding-left: 1.5em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.2;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-family: inherit;
+}
+
+body {
+    font-family: inherit;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: left;
+    width: 100%;
+}
+
+th {
+    background: #bdbdbd;
+}
+
+th, td {
+    border: 1px solid black;
+}
+
+tr:nth-child(odd) td {
+    background-color: #f2f2f2;
+}
+
+blockquote {
+    border-left: 4px solid #ccc;
+    margin-left: 40px;
+    padding-left: 40px;
+    font-style: italic;
+}
+
+blockquote div {
+    padding: 10px 0 40px 0;
+}
+
+blockquote p {
+    margin-bottom: 35px;
+}
+
+footer.quote-author {
+    text-align: right; /* Align the author name to the right */
+    font-style: italic;
+    margin-top: 20px;
+    color: #333;
+}
