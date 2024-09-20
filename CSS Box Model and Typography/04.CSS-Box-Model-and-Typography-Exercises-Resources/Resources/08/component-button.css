@@ -1,0 +1,44 @@
+body {
+    font-family: Lato, sans-serif
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+.button {
+    border: 1px solid gray;
+    border-radius: 3px;
+    margin: 0 5px;
+    padding: 20px 30px;
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+
+.gray {
+    background-color: #D8D8D8;
+    margin-left: 0;
+}
+
+.orange {
+    background-color: #FF9B00;
+}
+
+.yellow {
+    background-color: #F9F9CC;
+}
+
+.white {
+    background-color: white;
+}
+
+.icon {
+    background-color: #D8D8D8;
+}
+
+.icon i {
+    margin-right: 3px;
+}
+
