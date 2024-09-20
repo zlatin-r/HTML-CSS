@@ -1,5 +1,6 @@
 body {
     background: #EBEBEB;
+    font-family: sans-serif;
 }
 
 body a {
@@ -39,6 +40,9 @@ footer p {
 
 .f-italic {
     font-style: italic;
+}
+
+.limit-lines {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
