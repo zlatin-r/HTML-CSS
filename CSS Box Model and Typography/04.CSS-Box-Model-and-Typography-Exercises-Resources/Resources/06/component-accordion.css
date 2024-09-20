@@ -1,0 +1,23 @@
+body {
+    font-family: Lato, sans-serif;
+}
+
+section {
+    width: 80%;
+    margin: 30px auto;
+}
+
+div {
+    border: 1px solid gray;
+    padding: 20px;
+    border-bottom: 0;
+}
+
+summary {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+section:last-child {
+    border-bottom: 1px solid gray;
+}
