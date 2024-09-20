@@ -1,0 +1,25 @@
+body {
+    border: 2px solid green;
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+.outer {
+    border: 2px solid black;
+    margin: 20px;
+}
+
+header > h1,
+.banner > p,
+article > p,
+footer > p {
+    border: 2px solid blue;
+    margin: 20px 70px;
+    padding: 30px;
+    font-weight: bold;
+}
+
+header > h1 {
+    font-size: 1em;
+    font-weight: bold;
+}
