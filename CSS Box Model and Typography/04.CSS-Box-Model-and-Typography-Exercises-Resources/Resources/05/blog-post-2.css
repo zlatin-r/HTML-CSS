@@ -1,0 +1,14 @@
+body {
+    font-family: sans-serif;
+    border: 1px solid gray;
+    margin: 30px 150px;
+    padding: 15px;
+}
+
+.sub-header {
+    font-size: 1.1em;
+}
+
+footer p {
+    font-style: italic;
+}
