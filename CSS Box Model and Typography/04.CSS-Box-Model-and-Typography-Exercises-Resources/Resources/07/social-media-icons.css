@@ -1,0 +1,17 @@
+body {
+    font-family: Lato, sans-serif
+}
+
+h1 {
+    padding-bottom: 20px;
+}
+
+a {
+    border: 1px solid #EBEBEB;
+    color: black;
+    background: #EBEBEB;
+    padding: 25px;
+    margin: 3px;
+    border-radius: 50%;
+    font-size: 25px;
+}
