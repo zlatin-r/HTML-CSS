@@ -13,10 +13,6 @@
     flex-basis: 300px;
 }
 
-.flex-container .flex-item {
-    flex-shrink: 1; /* Default value to allow shrinking */
-}
-
 .flex-shrink-zero .flex-item {
     flex-shrink: 0; /* Prevents shrinking */
 }
