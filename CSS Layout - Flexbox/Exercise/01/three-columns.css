@@ -11,6 +11,7 @@ a {
 
 body {
     background: #EEE;
+    font-family: 'Lato', sans-serif;
 }
 
 .container {
@@ -60,5 +61,5 @@ footer:before {
 }
 
 footer:before {
-    margin: 0 auto 40px auto;
+    margin: 0 auto 10px auto;
 }
