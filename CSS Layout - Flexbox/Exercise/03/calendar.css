@@ -25,7 +25,7 @@ body {
 
 .calendar {
     border-radius: 3px;
-    border: 3px solid grey;
+    border: 1px solid grey;
     margin: 5px;
     display: flex;
 }
@@ -36,7 +36,7 @@ body {
 }
 
 .week {
-    flex: 7;
+    flex-grow: 7;
     border-right: 1px solid grey;
 }
 
