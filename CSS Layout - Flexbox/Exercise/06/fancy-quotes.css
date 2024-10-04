@@ -8,3 +8,80 @@ a {
     color: inherit;
     text-decoration: none;
 }
+
+body {
+    background: #EEE;
+}
+
+.quote-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin: 40px auto;
+    gap: 40px;
+
+}
+
+.quote-container article {
+    display: flex;
+    flex-wrap: wrap;
+    background: white;
+    padding: 20px;
+    align-items: center;
+    gap: 10px;
+}
+
+.left-article {
+    flex: 0 0 calc(70% - 20px);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.left-article i {
+    font-size: 40px;
+}
+
+.author {
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+.right-article {
+    flex-grow: 1;
+}
+
+.outer-circle {
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+    padding: 5px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.inner-circle {
+    background: green;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+}
+
+.left-quotes {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex: 0 0 70%
+}
+
+.right-quotes {
+    flex: 0 0 calc(30% - 40px);
+    flex-grow: 1;
+    flex-direction: column;
+    display: flex;
+}
+
+.right-quotes article {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+}
