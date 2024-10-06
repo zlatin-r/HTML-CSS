@@ -47,9 +47,9 @@ body::before {
     }
 }
 
-@media (width: 600px) {
+@media (max-width: 600px) {
     body::before {
-        content: "The viewport width is 600px";
+        content: "The max viewport width is 600px";
     }
 }
 
