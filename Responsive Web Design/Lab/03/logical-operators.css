@@ -47,17 +47,23 @@ body::before {
     }
 }
 
-@media print {
+@media (min-width: 800px) and (max-width: 1200px) {
     body::before {
         display: block;
-        content: 'The page is using a print preview or it was printed';
+        content: 'The viewport width is larger than 800px and smaller than 1200px';
     }
 }
 
-/* screen media query */
-@media screen {
+@media not (max-width: 1200px) {
     body::before {
         display: block;
-        content: 'The page is being shown on a screen';
+        content: 'The viewport width is larger than 1200px';
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    body::before {
+        display: block;
+        content: 'The device is using a screen and the viewport width is larger than 800px';
     }
 }
