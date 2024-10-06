@@ -23,6 +23,12 @@ body::before {
     content: 'Default viewport message'; /* Set a default content message */
 }
 
+@media (max-width: 800px) {
+    body::before {
+        content: 'The viewport width is smaller than 800px';
+    }
+}
+
 @media (width: 800px) {
     body::before {
         content: 'The viewport width is exactly 800px';
@@ -35,11 +41,7 @@ body::before {
     }
 }
 
-@media (max-width: 800px) {
-    body::before {
-        content: 'The viewport width is smaller than 800px';
-    }
-}
+
 
 /*@media (min-width: 800px) and (max-width: 1000px) {*/
 /*    body::before {*/
