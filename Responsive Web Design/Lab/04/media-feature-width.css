@@ -40,3 +40,21 @@ body::before {
         content: 'The viewport width is smaller than 800px';
     }
 }
+
+/*@media (min-width: 800px) and (max-width: 1000px) {*/
+/*    body::before {*/
+/*        content: 'The viewport width is between 800px and 1000px';*/
+/*    }*/
+/*}*/
+
+/*@media (min-width: 600px) and (max-width: 799px) {*/
+/*    body::before {*/
+/*        content: 'The viewport width is between 600px and 799px';*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 599px) {*/
+/*    body::before {*/
+/*        content: 'The viewport width is less than 600px';*/
+/*    }*/
+/*}*/
