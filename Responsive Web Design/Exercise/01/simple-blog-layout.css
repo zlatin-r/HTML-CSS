@@ -1,3 +1,4 @@
+/* Base styles (already defined) */
 * {
     margin: 0;
     padding: 0;
@@ -16,7 +17,7 @@ body {
 
 .site {
     margin: 40px auto;
-    padding: 20px;
+    padding: 30px;
     border: 1px solid black;
     width: 80%;
     display: flex;
@@ -27,10 +28,10 @@ body {
     gap: 20px;
 }
 
-.site-el {
+.site > * {
     border: 1px solid black;
     border-radius: 3px;
-    padding: 20px;
+    padding: 30px;
 }
 
 .site > header,
@@ -44,4 +45,28 @@ body {
 
 .site > aside {
     flex-grow: 3;
+}
+
+/* Media query for screen width 800px or less */
+@media (max-width: 800px) {
+    .site {
+        flex-direction: column;
+    }
+
+    .site > main,
+    .site > aside {
+        flex: 1 1 100%; /* Make sure both take full width */
+    }
+
+    .site > main {
+        order: 1; /* Ensures main content comes first */
+    }
+
+    .site > aside {
+        order: 2; /* Ensures sidebar comes after main */
+    }
+
+    .site > footer {
+        order: 3; /* Ensures footer comes after sidebar */
+    }
 }
