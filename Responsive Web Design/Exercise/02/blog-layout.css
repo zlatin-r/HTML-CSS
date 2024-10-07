@@ -35,6 +35,7 @@ header {
 header h1 {
     margin: 30px;
     color: green;
+    font-weight: bold;
 }
 
 .nav-menu {
@@ -44,18 +45,18 @@ header h1 {
 
 .nav-menu ul {
     list-style-type: none;
-    justify-content: flex-start;
     display: flex;
     background: #434343;
-    padding: 20px;
+
 }
 
-.nav-menu ul li {
-    margin-right: 210px;
+.nav-menu li {
+    flex: 1 0 auto;
 }
 
-.nav-menu ul li a {
+.nav-menu li a {
     padding: 20px;
+    display: block;
 }
 
 main {
@@ -64,11 +65,15 @@ main {
     padding: 30px;
 }
 
-main .left-article {
+main > * {
     display: flex;
     flex-direction: column;
-    flex: 2 1 0;
     gap: 15px;
+    padding: 10px;
+}
+
+main .left-article {
+    flex: 2 1 0;
 }
 
 main .right-article {
@@ -81,4 +86,19 @@ footer {
     background: #434343;
     width: 100%;
     color: white;
+}
+
+@media (max-width: 600px) {
+    .nav-menu ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-menu li {
+        border-bottom: 1px solid #666666;
+    }
+
+    main {
+        flex-direction: column;
+    }
 }
