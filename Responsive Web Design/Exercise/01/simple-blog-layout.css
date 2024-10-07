@@ -52,21 +52,4 @@ body {
     .site {
         flex-direction: column;
     }
-
-    .site > main,
-    .site > aside {
-        flex: 1 1 100%; /* Make sure both take full width */
-    }
-
-    .site > main {
-        order: 1; /* Ensures main content comes first */
-    }
-
-    .site > aside {
-        order: 2; /* Ensures sidebar comes after main */
-    }
-
-    .site > footer {
-        order: 3; /* Ensures footer comes after sidebar */
-    }
 }
