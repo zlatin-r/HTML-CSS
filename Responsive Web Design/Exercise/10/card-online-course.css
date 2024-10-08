@@ -30,10 +30,11 @@ body {
 
 .single-card {
     flex: 0 0 calc(33% - 20px);
-    border: 1px solid gray;
+    border: 1px solid #e7e7e7;
     border-radius: 5px;
     padding: 10px;
     box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+    background: #F8F8F8;
 }
 
 .single-card-container {
@@ -143,15 +144,16 @@ main > * {
 }
 
 .card-footer .single-group {
-    background: #cec9c9;
+    background: #FBFBFB;
     display: flex;
+
     align-items: center;
     justify-content: space-between;
     color: #20C599;
 }
 
-.card-footer i {
+.pricing-footer {
     font-size: 18px;
     font-weight: bold;
-
+    padding: 5px;
 }
