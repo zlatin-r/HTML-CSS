@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding: 0;
+    /*padding: 0;*/
     box-sizing: border-box;
 }
 
@@ -35,4 +35,24 @@ header {
     flex-direction: column;
     gap: 1em;
     padding: 1.5em 0;
+}
+
+.second-article {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em 0;
+    gap: 1em;
+}
+
+.ul-one {
+    list-style-type: square;
+    padding-bottom: 1.5em;
+}
+
+.ul-two {
+    list-style-type: disc;
+}
+
+.ul-three {
+    list-style-type: circle;
 }
