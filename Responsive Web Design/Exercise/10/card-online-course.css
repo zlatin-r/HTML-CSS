@@ -133,3 +133,25 @@ main > * {
     font-weight: bold;
     font-size: 18px;
 }
+
+.card-footer {
+    margin: 0 10px;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+
+}
+
+.card-footer .single-group {
+    background: #cec9c9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #20C599;
+}
+
+.card-footer i {
+    font-size: 18px;
+    font-weight: bold;
+
+}
