@@ -18,7 +18,7 @@ h2 {
 }
 
 pre {
-    background-color: lightgray;
+    background-color: #e8e7e7;
     display: block;
     padding: 2em 2em 2em 2em;
     border-radius: 0.3em;
@@ -27,7 +27,8 @@ pre {
     overflow: auto;
 }
 
-input {
+input,
+textarea {
     display: inline-block;
     padding: 0.5em 0.8em;
     border: 2px solid #ccc;
