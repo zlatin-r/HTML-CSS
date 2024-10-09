@@ -9,22 +9,22 @@
     margin: 20px;
     display: flex;
     flex-direction: column;
-    gap: 2em;
+    gap: 3em;
 }
 
-header {
-
+p {
+    margin-top: 10px;
 }
 
 .attribute {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 25px;
 }
 
 .code {
-    border: 1px solid black;
-    background: lightgray;
+    border: 2px solid #d4d4d4;
+    background: #e4e4e4;
     border-radius: 4px;
     padding: 20px;
 }
