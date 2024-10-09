@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+}
+
+body {
+    padding: 2em;
+}
+
+h2 {
+    margin-top: 2em;
+}
+
+pre {
+    background-color: #e8e7e7;
+    display: block;
+    padding: 2em 2em 2em 1em;
+    border-radius: 0.3em;
+    margin: 2em 0;
+    border: 1px solid #ccc;
+    overflow: auto;
+}
+
+input,
+textarea {
+    display: inline-block;
+    padding: 0.5em 0.8em;
+    border: 2px solid #ccc;
+    outline: none;
+}
+
+input:focus {
+    border-color: #090;
+}
+
+select {
+    display: block;
+    min-width: 20ch;
+    min-height: 20ch;
+    padding: 0.5em 0.8em;
+    border: 2px solid #ccc;
+    border-radius: 0.3em;
+}
+
+fieldset {
+    padding: 2em;
+    border: 2px solid #ccc;
+    max-width: 50ch;
+}
+
+legend {
+    padding: 0.1em;
+    font-weight: bold;
+}
+
+label {
+    font-weight: bold;
+}
+
+fieldset input {
+    display: block;
+    width: 100%;
+    border-radius: 0.3em;
+}
+
+.field {
+    padding-bottom: 1.5em;
+}
