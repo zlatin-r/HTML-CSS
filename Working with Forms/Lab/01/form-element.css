@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+header {
+
+}
+
+.attribute {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.code {
+    border: 1px solid black;
+    background: lightgray;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+input[type="search"] {
+    width: 200px;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 4px;
+    border: 2px solid #c9c9c9;
+}

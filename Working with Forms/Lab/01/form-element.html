@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form-element</title>
+    <link rel="stylesheet" href="form-element.css">
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>The Form Element</h1>
+        <p>
+            The form element represents a document section containing interactive controls for submitting
+            information.
+        </p>
+    </header>
+
+    <div class="attribute">
+        <section class="data">
+            <h2>Attribute - method="get" (default)</h2>
+            <p>Form data appended to the action URL with a ? separator.</p>
+        </section>
+
+        <section class="code">
+             <pre>
+&lt;form action="#" method="post"&gt;
+    &lt;input type="search"&gt;
+&lt;/form&gt;</pre>
+        </section>
+
+        <form action="#" method="get">
+            <label for="search-get">Search</label>
+            <input type="search" id="search-get">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <div class="attribute">
+        <section class="date">
+            <h2>Attribute - method="post" (default)</h2>
+            <p>Form data sent as the request body.</p>
+        </section>
+
+        <section class="code">
+            <pre>
+&lt;form action="#" method="post"&gt;
+    &lt;input type="search"&gt;
+&lt;/form&gt;</pre>
+        </section>
+
+        <form action="#" method="post">
+            <label for="search-post">Search</label>
+            <input type="search" id="search-post">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+</div>
+
+</body>
+</html>
