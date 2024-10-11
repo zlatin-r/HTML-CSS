@@ -28,12 +28,13 @@ body {
 .login-form {
     display: flex;
     flex-direction: column;
+    padding: 0 20px;
 }
 
 hr {
     border: 2px solid #dadada;
     margin: 35px 0;
-    width: 85px;
+    width: 35%;
 }
 
 input[type="email"],
@@ -54,7 +55,9 @@ label.required::after {
 
 .instructions {
     font-style: italic;
-    color: #a2a2a2;
+    font-weight: bold;
+    color: #848484;
+    padding-bottom: 30px;
 }
 
 label.required,
@@ -70,4 +73,16 @@ button {
     border-radius: 3px;
     padding: 20px;
     margin: 30px 0;
+}
+
+.email-form,
+.password-form {
+    position: relative;
+}
+
+i {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 26px;
 }
