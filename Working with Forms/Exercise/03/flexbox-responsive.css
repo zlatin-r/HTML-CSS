@@ -13,3 +13,16 @@ a {
 body {
     background-color: #e8e8e8;
 }
+
+.container {
+    margin: 200px auto;
+    width: 70%;
+    background-color: #FFF;
+    display: flex;
+    gap: 5px;
+    padding: 5px;
+}
+
+.item-two {
+    flex: 2;
+}
