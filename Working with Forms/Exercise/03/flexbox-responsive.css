@@ -49,6 +49,10 @@ button {
 }
 
 @media (max-width: 600px) {
+    .container {
+        width: 85%;
+    }
+
     .item-one, .item-two {
         flex: 0 0 48%; /* Name and Email fields stay in one row */
         margin-bottom: 10px;
@@ -69,5 +73,11 @@ button {
 
     .item-two {
         flex: 2;
+    }
+}
+
+@media (max-width: 400px) {
+    .container > * {
+        flex: 0 0 100%;
     }
 }
