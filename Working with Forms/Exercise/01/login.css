@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Lato", sans-serif;
 }
 
 a {
@@ -16,10 +17,21 @@ body {
 .container {
     margin: 60px auto;
     padding: 30px;
-    width: 40%;
+    width: 45%;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     background: #ffffff;
     border-radius: 4px;
     box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+}
+
+hr {
+    border: 2px solid #dadada;
+    margin: 30px 0;
+    width: 90px;
+}
+
+input[type="email"] {
+    display: flex;
+    flex-direction: column;
 }
