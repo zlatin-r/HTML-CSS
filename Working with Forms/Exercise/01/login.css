@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Lato", sans-serif;
-
 }
 
 a {
@@ -21,8 +20,8 @@ body {
     width: 40%;
     display: flex;
     flex-direction: column;
-    background: #ffffff;
     border-radius: 4px;
+    background: #ffffff;
     box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
 }
 
@@ -42,6 +41,7 @@ input[type="password"] {
     padding: 20px;
     width: 100%;
 }
+
 label.required::after {
     content: " *";
     color: red;
