@@ -19,10 +19,55 @@ body {
     width: 70%;
     background-color: #FFF;
     display: flex;
-    gap: 5px;
-    padding: 5px;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    padding: 15px;
+    border-radius: 3px;
+}
+
+input,
+button {
+    background-color: #e8e8e8;
+    color: #FFFFFF;
+    border: none;
+    padding: 20px;
+    width: 100%;
+    border-radius: 3px;
+}
+
+button {
+    background-color: orange;
+}
+
+.item-one,
+.item-three {
+    flex: 1;
 }
 
 .item-two {
     flex: 2;
+}
+
+@media (max-width: 600px) {
+    .item-one, .item-two {
+        flex: 0 0 48%; /* Name and Email fields stay in one row */
+        margin-bottom: 10px;
+    }
+
+    .item-three {
+        flex: 0 0 100%; /* Button takes full width on a new row */
+    }
+
+    .container {
+        gap: 0;
+    }
+
+    .item-one {
+        flex: 1;
+        margin-right: 10px;
+    }
+
+    .item-two {
+        flex: 2;
+    }
 }
