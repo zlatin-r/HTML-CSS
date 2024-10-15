@@ -36,3 +36,14 @@ fieldset {
     display: flex;
     flex-direction: column;
 }
+
+input {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid #e8e8e8;
+}
+
+input[type="submit"] {
+    padding: 20px;
+}
