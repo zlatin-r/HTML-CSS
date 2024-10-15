@@ -17,7 +17,7 @@ body {
 
 .container {
     margin: 20px auto;
-    width: 50%;
+    width: 60%;
     background-color: #FFF;
     padding: 0 30px 30px 30px;
     box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
@@ -50,7 +50,6 @@ span {
 }
 
 input {
-
     border-top: none;
     border-right: none;
     border-left: none;
@@ -60,12 +59,12 @@ input {
 .field {
     display: flex;
     flex-direction: column;
-    padding: 15px;
+    padding: 20px;
     margin-bottom: 25px;
     gap: 10px;
     color: #676767;
     border: 3px solid #c9c9c9;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 
 button {
