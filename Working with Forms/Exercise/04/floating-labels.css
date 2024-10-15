@@ -12,29 +12,39 @@ a {
 body {
     background-color: #e8e8e8;
     font-family: "Lato", sans-serif;
+    font-weight: 900;
+
 }
 
 .container {
     margin: 60px auto;
-    width: 40%;
+    width: 50%;
     background-color: #FFFFFF;
     padding: 30px;
+    border-radius: 4px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
 }
 
 legend {
-    margin: 30px 0 ;
+    padding: 20px 0 70px 0;
+    font-size: 26px;
 }
 
 fieldset {
     border: none;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 30px;
+}
+
+label {
+    padding-bottom: 5px;
 }
 
 .field {
     display: flex;
     flex-direction: column;
+    padding-bottom: 20px;
 }
 
 input {
@@ -46,4 +56,12 @@ input {
 
 input[type="submit"] {
     padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+span {
+    color: #bfbfbf;
+    font-style: italic;
 }
