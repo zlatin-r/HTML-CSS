@@ -5,6 +5,7 @@
 }
 
 body {
+    height: 100vh;
     margin: 0;
     font-family: Arial, sans-serif;
     font-weight: 900;
@@ -12,15 +13,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 
 .container {
+    width: 40%;
+    padding: 40px 20px;
     background-color: #FFFFFF;
-    padding: 30px;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 30%;
 }
 
 h2 {
@@ -61,4 +61,16 @@ button {
     padding: 20px;
     margin-top: 40px;
     width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        width: 70%;
+    }
 }
