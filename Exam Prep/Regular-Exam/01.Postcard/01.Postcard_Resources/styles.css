@@ -39,27 +39,26 @@ img {
 
 .img-text {
     position: absolute;
-    bottom: 30px;
+    bottom: 32px;
     width: 90%;
     text-align: center;
     background-color: white;
     border-radius: 10px;
-    padding: 10px;
+    padding: 5px 20px 5px 20px;
 }
 
 .card-bottom {
     padding: 0 40px 20px 40px;
     border-top: 1px solid #c6c6c6;
-    background-color: #f5f5f5;
-
+    background-color: #F9F9F9;
 }
 
 .card-top h2 {
-    padding: 8px;
+    padding: 10px;
 }
 
 .card-bottom h2 {
-    padding: 20px 0;
+    padding: 25px 0;
 }
 
 .card-bottom p {
