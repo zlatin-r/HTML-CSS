@@ -1,0 +1,14 @@
+@media screen and (max-width: 600px) {
+    header nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .header-title {
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    header nav ul {
+        display: flex;
+        flex-direction: row;
+    }
+}
