@@ -14,10 +14,12 @@ body {
     background: #e0e0e0;
     font-family: 'Gochi Hand';
     display: flex;
+    height: 100vh;
     align-items: center;
     justify-content: center;
 }
 .postcard {
+    width: 800px;
     background: #FFF;
     border: 1px solid #ccc;
     border-radius: 15px;
