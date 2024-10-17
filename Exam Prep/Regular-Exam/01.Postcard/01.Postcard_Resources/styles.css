@@ -6,4 +6,12 @@
 
 body {
     background-color: #cbcbcb;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.card-container {
+    height: 90%;
+    margin-top: 20px;
 }
