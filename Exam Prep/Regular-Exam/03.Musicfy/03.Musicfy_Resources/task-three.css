@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #59bc59;
+    height: 20vh;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul li {
+    margin-right: 20px;
+    padding: 15px 0;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    position: relative;
+}
+
+.spotify-logo {
+    width: 70px;
+    position: absolute;
+    top: 7px;
+}
