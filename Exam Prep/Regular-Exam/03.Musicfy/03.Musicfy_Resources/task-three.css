@@ -172,7 +172,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 80px 0 40px 0;
+    margin: 80px 0 70px 0;
 }
 
 .bottom-table h1 {
@@ -188,7 +188,7 @@ table {
     width: 1000px;
     border: none;
     border-collapse: collapse;
-    border-radius: 10px;
+    border-radius: 5px;
     overflow: hidden;
 }
 
