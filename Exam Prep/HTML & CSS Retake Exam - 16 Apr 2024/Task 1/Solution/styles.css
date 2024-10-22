@@ -54,6 +54,10 @@ h1 {
     font-weight: 500;
 }
 
+.top-row {
+    display: flex;
+}
+
 label {
     position: absolute;
     color: rgba(255, 255, 255, 0.5);
@@ -68,6 +72,8 @@ input {
     background-color: inherit;
     border: 1px solid grey;
 }
+
+
 
 .start-btn {
     margin-top: 30px;
