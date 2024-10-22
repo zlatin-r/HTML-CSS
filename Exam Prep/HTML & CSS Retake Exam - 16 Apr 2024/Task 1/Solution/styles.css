@@ -75,6 +75,7 @@ label {
     position: absolute;
     color: rgba(255, 255, 255, 0.5);
     padding-left: 7px;
+    pointer-events: none;
 }
 
 label .req {
@@ -95,7 +96,7 @@ input {
 }
 
 .start-btn {
-    margin-top: 30px;
+    margin-top: 45px;
     padding: 20px;
     width: 100%;
     font-size: 28px;
