@@ -143,7 +143,7 @@ main,
 .container-bottom {
     padding: 50px;
     width: 1500px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 1px 3px 0, rgba(0, 0, 0, 0.06) 0 1px 2px 0;
 }
 
 .container-top img,
@@ -208,7 +208,7 @@ main,
 }
 
 .data input::placeholder,
-.data textarea::placeholder{
+.data textarea::placeholder {
     color: white;
     font-size: 12px;
     font-weight: bold;
