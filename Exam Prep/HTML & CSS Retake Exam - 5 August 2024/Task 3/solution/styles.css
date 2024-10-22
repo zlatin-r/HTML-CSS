@@ -55,6 +55,7 @@ button {
 }
 
 .top-container {
+    width: 80%;
     display: flex;
     justify-content: space-between;
 }
@@ -62,6 +63,7 @@ button {
 .left-part {
     display: flex;
     flex-direction: column;
+    width: 40%;
 }
 
 .big-text {
@@ -74,9 +76,8 @@ button {
 
 .right-part img {
     position: relative;
-    width: 550px;
-    top: 55px;
-    right: 40px;
+    width: 800px;
+    top: 25px;
     z-index: 1;
 }
 
