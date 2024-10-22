@@ -8,24 +8,30 @@
 }
 
 .top-nav ul,
+.bottom-nav,
 button {
     font-family: "Roboto", sans-serif;
 }
 
+.info,
 .big-text,
 .small-text,
+footer p,
 .container-top,
-.container-bottom {
+.container-bottom,
+.data input::placeholder,
+.data textarea::placeholder {
     font-family: "Playwrite PE", sans-serif;
 }
 
+.info,
 .top-nav ul,
 .big-text,
 .header-btn,
 .right-btn,
-.container-top h2,
-.container-bottom h2 {
-    color: #344783;
+.container-top,
+.container-bottom {
+    color: #2F4880;
 }
 
 .top-nav ul,
@@ -48,7 +54,8 @@ header {
     padding: 50px 0;
 }
 
-.top-nav ul li:first-child {
+.top-nav ul li:first-child,
+.red-text {
     color: red;
 }
 
@@ -56,7 +63,7 @@ header {
     border: 3px solid red;
     border-radius: 8px;
     padding: 15px 50px;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 .header-content {
@@ -65,8 +72,9 @@ header {
 }
 
 .header-text {
-    padding-left: 40px;
+    position: relative;
     z-index: 2;
+    left: 70px;
 }
 
 .big-text {
@@ -86,7 +94,10 @@ header {
 }
 
 .header-image {
-    width: 880px;
+    position: relative;
+    bottom: 50px;
+    right: -8px;
+    width: 920px;
     z-index: 1;
 
 }
@@ -111,6 +122,9 @@ header {
     width: 180px;
 }
 
+main,
+.info,
+.data,
 .container,
 .container-top,
 .container-bottom {
@@ -120,16 +134,111 @@ header {
 }
 
 .container {
-    gap: 20px;
+    position: relative;
+    gap: 15px;
+    margin-top: 70px;
 }
 
-.container-top {
-    margin-top: 50px;
+.container-top,
+.container-bottom {
     padding: 50px;
     width: 1500px;
     box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
 }
 
-.container-top img {
+.container-top img,
+.container-bottom img {
     width: 350px;
+    margin-bottom: 30px;
+}
+
+.bubble {
+    transform: translateX(-50%);
+    position: absolute;
+    width: 320px;
+    z-index: 0;
+    left: 60px;
+    bottom: 435px;
+}
+
+.bubble-two {
+    transform: translateX(-50%);
+    position: absolute;
+    width: 320px;
+    z-index: 0;
+    right: -240px;
+    bottom: -150px;
+}
+
+.company-image {
+    margin-top: 80px;
+    width: 500px;
+}
+
+.info {
+    margin-top: 70px;
+    width: 50%;
+    text-align: center;
+}
+
+.info p {
+    margin-bottom: 50px;
+}
+
+.info h1:nth-of-type(2) {
+    margin-bottom: 20px;
+}
+
+.form-data {
+    margin: 30px 0;
+}
+
+.red-text {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.data input,
+.data textarea {
+    width: 170vh;
+    border: none;
+    background-color: #2F4880;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.data input::placeholder,
+.data textarea::placeholder{
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    margin: 15px 0 25px 0;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #2F4880;
+    margin: 10px 0;
+}
+
+.bottom-nav ul {
+    font-weight: bold;
+    color: white;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    gap: 35px;
+    padding: 70px 0 40px 0;
+}
+
+footer p {
+    color: white;
+    padding-bottom: 50px;
+    font-size: 12px;
 }
