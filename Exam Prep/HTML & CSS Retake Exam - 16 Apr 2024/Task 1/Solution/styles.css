@@ -84,13 +84,5 @@ input::placeholder {
     font-size: 18px;
 }
 
-.lower-form input {
-    position: relative;
-}
 
-form {
-    content: "*";
-    position: absolute;
-    color: #1ab188;
-}
 
