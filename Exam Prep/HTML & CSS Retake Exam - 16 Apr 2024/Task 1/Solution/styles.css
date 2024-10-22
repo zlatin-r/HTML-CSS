@@ -33,7 +33,7 @@ body {
     border: none;
     background-color: #1AB188;
     color: white;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .log-in-btn {
@@ -72,7 +72,7 @@ form {
 }
 
 .start-btn {
-   margin-top: 30px;
+    margin-top: 30px;
     padding: 20px;
     width: 100%;
     font-size: 26px;
@@ -80,6 +80,17 @@ form {
     color: white;
 }
 
-input::placeholder:after {
-    content: "*";
+input::placeholder {
+    font-size: 18px;
 }
+
+.lower-form input {
+    position: relative;
+}
+
+form {
+    content: "*";
+    position: absolute;
+    color: #1ab188;
+}
+
