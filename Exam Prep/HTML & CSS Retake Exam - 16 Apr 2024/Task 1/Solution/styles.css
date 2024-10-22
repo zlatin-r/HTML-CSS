@@ -90,6 +90,11 @@ input {
     padding: 10px;
 }
 
+input:focus + label,
+input:focus + label .req {
+    visibility: hidden;
+}
+
 .field-wrap {
     display: flex;
     align-items: center;
