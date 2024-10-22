@@ -19,6 +19,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 4px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
 }
 
 .upper-two-btn {
@@ -38,6 +40,12 @@ body {
 
 .log-in-btn {
     background-color: #435359;
+    color: gray;
+}
+
+.log-in-btn:hover {
+    background-color: #179A77;
+    color: white;
 }
 
 h1 {
@@ -46,29 +54,19 @@ h1 {
     font-weight: 500;
 }
 
+label {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+label .req {
+    margin: 2px;
+    color: #1ab188;
+}
+
 input {
     background-color: inherit;
-    border: 1px solid gray;
-    padding: 10px;
-}
-
-.lower-form {
-    width: 100%;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    gap: 35px;
-}
-
-.name-fields {
-    display: flex;
-    gap: 15px;
-}
-
-.name-fields input {
-    flex: 1;
+    border: 1px solid grey;
 }
 
 .start-btn {
@@ -79,10 +77,3 @@ form {
     background-color: #1AB188;
     color: white;
 }
-
-input::placeholder {
-    font-size: 18px;
-}
-
-
-
