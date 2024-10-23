@@ -77,3 +77,39 @@ nav {
     color: grey;
     box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
 }
+
+.catalog-container-upper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #52ABBE;
+}
+
+.catalog-container-upper {
+    padding: 35px 20px;
+}
+
+.catalog-container-upper p {
+    padding-bottom: 25px;
+}
+
+.articles {
+    display: flex;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    width: calc(100% - 50px);
+    height: 200px;
+}
+
+.article-img {
+    width: 350px;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
