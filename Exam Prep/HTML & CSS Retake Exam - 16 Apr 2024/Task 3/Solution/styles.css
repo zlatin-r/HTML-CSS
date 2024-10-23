@@ -135,3 +135,79 @@ span {
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
     margin-left: 7px;
 }
+
+.mid-part-container {
+    display: flex;
+    gap: 60px;
+    margin: 50px;
+}
+
+.mid-part-container img {
+    width: 150px;
+    height: 150px;
+
+}
+
+.mid-part-container .chair,
+.mid-part-container .table,
+.mid-part-container .bed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.mid-part-container h4 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.mid-part-container p {
+    margin: 15px 0;
+    padding: 0 40px;
+}
+
+.catalog-container-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #52ABBE;
+    padding: 35px 20px;
+}
+
+.catalog-container-bottom p {
+    margin-bottom: 35px;
+}
+
+.catalog-container-bottom img {
+    width: 360px;
+    height: 270px;
+    margin: 0 40px;
+}
+
+.image-item {
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.about-us h3 {
+}
+
+.about-us p:last-of-type {
+    margin: 20px 330px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    background-color: #2d333c;
+    color: white;
+}
