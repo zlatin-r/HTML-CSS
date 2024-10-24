@@ -12,13 +12,50 @@
     display: flex;
     height: 100vh;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
-.page {
-    display: flex;
+.text-container {
+    margin-left: 70px;
+}
+.text-container h1 {
+    font-size: 60px;
+}
+
+.text-container p {
+    font-size: 18px;
+}
+
+.text-container h1:last-of-type {
+    padding-bottom: 40px;
 }
 
 .image-container img {
-    width: 200px;
+    width: 470px;
+    margin-right: 70px;
+    box-shadow: rgb(38, 57, 77) 0 20px 30px -10px;
+}
+
+.buttons {
+    margin-top: 40px;
+}
+
+button {
+    padding: 20px 40px;
+    border-radius: 5px;
+    color: #424242;
+}
+
+.get-started {
+    background-color: #42AA59;
+    margin-right: 20px;
+}
+
+.get-started:hover {
+    background-color: black;
+    color: white;
+}
+
+.learn-more {
+    border: none;
 }
