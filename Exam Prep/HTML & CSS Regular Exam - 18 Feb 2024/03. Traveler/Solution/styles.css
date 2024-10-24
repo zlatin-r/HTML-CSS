@@ -13,12 +13,25 @@ a {
 }
 
 .top-nav,
-.top-text {
+.top-text,
+.customer-testimonial,
+.support,
+.article-text,
+.guide-text,
+.footer-part {
     font-family: "Karla", sans-serif;
+    font-size: 18px;
 }
 
-.top-title {
+.top-title,
+.article-title,
+.guide-title {
     font-family: "Cormorant Infant", sans-serif;
+    font-size: 90px;
+}
+.main-part h1 {
+    font-family: "Cormorant Infant", sans-serif;
+    font-size: 16px;
 }
 
 .top-part {
@@ -68,4 +81,115 @@ a {
     position: absolute;
     bottom: 105px;
     font-size: 17px;
+}
+
+.main-part {
+    width: 100%;
+    background-color: #F8F0E9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 200px;
+}
+
+.customer-testimonial {
+    margin-bottom: 85px;
+    margin-right: 550px;
+    color: grey;
+    font-size: 18px;
+}
+
+.main-part h1 {
+    font-size: 50px;
+    font-style: italic;
+    margin: -20px;
+}
+
+.big-text {
+    margin-bottom: 55px;
+}
+
+.support {
+    width: 100%;
+    background-color: #E14747;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 65px;
+    gap: 45px;
+    text-align: center;
+}
+
+.article-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 500px;
+    text-align: center;
+    gap: 70px;
+    background-color: #F8F0E9;
+}
+
+.article-img {
+    width: 100%;
+}
+
+.article-text {
+    width: 100%;
+    text-align: left;
+}
+
+.article-buttons {
+    width: 100%;
+    display: flex;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.guide {
+    width: 100%;
+    background-color: #E14747;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 80px 0;
+    gap: 60px;
+    text-align: center;
+}
+
+.guide-title {
+    margin: 25px 0;
+}
+
+.guide-btn {
+    background-color: #FAD87A;
+    border-radius: 25px;
+    border: none;
+    padding: 15px 25px;
+}
+
+.footer-part {
+    display: flex;
+    flex-direction: column;
+    background-color: #352B2A;
+    color: white;
+    padding: 30px 0 30px 50px;
+    gap: 20px;
+}
+
+.footer-logo {
+    width: 50px;
+    margin: 10px 0;
+}
+
+.rights {
+    font-size: 14px;
+    opacity: 0.3;
 }
