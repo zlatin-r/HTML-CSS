@@ -71,7 +71,7 @@ a {
 }
 
 .card-field {
-    padding: 40px;
+    padding: 80px;
     display: flex;
     background-color: #353434;
     justify-content: space-around;
@@ -80,8 +80,84 @@ a {
 
 .card h3 {
     color: white;
+    margin-bottom: 20px;
 }
 
-.card h5 {
+.card-text {
     color: #888888;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    opacity: 0.6;
+}
+
+.card-text h5 {
+    line-height: 25px;
+}
+
+.card i {
+    font-size: 40px;
+    color: white;
+    background-color: #56DBB1;
+    padding: 20px;
+    margin: 30px;
+}
+
+
+.white-field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.white-field h2 {
+    font-size: 32px;
+    color: #757575;
+}
+
+.white-field h4 {
+    color: #969696;
+    margin-bottom: 30px;
+}
+
+.white-field button {
+    padding: 15px 35px;
+    border: none;
+    background-color: #974D1B;
+    color: white;
+}
+
+.articles-field {
+    display: flex;
+    background-color: #353434;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+    padding: 100px 30px;
+}
+
+.field-item h3 {
+    color: white;
+    margin: 20px;
+    font-size: 30px;
+}
+
+.field-item h5 {
+    color: #888888;
+    line-height: 26px;
+    opacity: 0.6;
+}
+
+.footer {
+    display: flex;
+    background-color: #56DBB1;
+    justify-content: center;
+    color: white;
+    padding: 50px 0 20px 0;
+    font-size: 12px;
+    gap: 5px;
+}
+
+.footer h3 {
+    opacity: 0.6;
 }
