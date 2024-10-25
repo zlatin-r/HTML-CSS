@@ -53,16 +53,35 @@ a {
     color: black;
 }
 
+.header-img img,
 .header-img {
     width: 100%;
     height: 500px;
-    overflow: hidden;
-    position: relative;
+    object-fit: cover;
 }
 
-.header-img img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); /* Center the image */
+.header-text {
+    background-color: #56DBB1;
+    padding: 63px 140px;
+    text-align: center;
+}
+
+.header-text p {
+    line-height: 30px;
+}
+
+.card-field {
+    padding: 40px;
+    display: flex;
+    background-color: #353434;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.card h3 {
+    color: white;
+}
+
+.card h5 {
+    color: #888888;
 }
