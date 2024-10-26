@@ -1,14 +1,15 @@
 @media screen and (max-width: 600px) {
     .home-navbar {
-        justify-content: center;
+        justify-content: space-between;
     }
 
     .home-links-container {
-        margin-right: 35px;
+        margin-left: 60px;
     }
 
     .home-cta-btn {
-        padding: 10px;
+        padding: 5px 10px;
+        font-size: 16px;
     }
 
     .home-features {
@@ -35,8 +36,8 @@
     .home-image2,
     .home-image3,
     .home-image4 {
-        width: 70%;
-        height: auto;
+        width: 80%;
+        height: 350px;
     }
 
     .home-stats {
